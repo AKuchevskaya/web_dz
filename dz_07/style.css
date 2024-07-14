@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button {
+  background-color: black;
+  border: none;
+}
+.header__left{
+  display: flex;
+  padding: 18px 0 18px;
+}
+
+.header__left_btn {
+  margin-left: 41px;
+}
+
+.header__right {
+  display: flex;
+  padding: 20px 0 20px;
+  gap: 33px;
+}
+.promo {
+  max-width: 1600px;
+  background-color: #f1e4e6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+.promo__info {
+  border-left: 12px solid #F16D7F;
+  padding-left: 16px;
+}
+.promo__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #222;
+}
+.promo__text_black {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+}
+.promo__text_pink {
+  font-size: 32px;
+  font-weight: 700;
+  color: #f16d7f;
+}
+
+.sale {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+.sale__item {
+  position: relative;
+}
+
+.sale__item::before {
+  content: ' ';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.sale__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sale__item_big {
+  min-height: 180px;
+  grid-column: 1 / -1;
+}
+
+.sale__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.sale__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #F16D7F;
+}
+/* @media(max-width: ) */
