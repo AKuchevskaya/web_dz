@@ -54,6 +54,21 @@ a {
 	padding: 20px 0 20px;
 	gap: 33px;
 }
+.header__right_btn-basket{
+	position: relative;
+}
+.header__right_circle{
+	border-radius: 50%;
+    width: 19px;
+    height: 19px;
+	align-content: center;
+	font-size: 12px;
+    position: absolute;
+	top: -5px;
+	right: -10px;
+	background-color: #F16D7F;
+	color: #ffffff;
+}
 .promo {
 	/* max-width: 1600px; */
 	background-color: #f1e4e6;
@@ -436,11 +451,13 @@ a {
 	.top {
 		max-width: 375px;
 	}
-	.header__right_btn-menu {
+	.header__right_btn-basket {
 		visibility: hidden;
+		position: absolute;
 	}
 	.header__right_btn-reg {
 		visibility: hidden;
+		position: absolute;
 	}
 	.promo__img{
 		visibility: hidden;
