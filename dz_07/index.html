@@ -23,8 +23,8 @@
 				<button class="header__right_btn-reg"><img src="img/person_1.svg" alt="reg" /></button>
 				<button class="header__right_btn-basket">
 					<img src="img/backet_1.svg" alt="basket" />
-					<div class="header__right_circle">5</div>
 				</button>
+				<div class="header__right_circle">5</div>
 			</nav>
 		</header>
 		<section class="promo">
@@ -36,6 +36,37 @@
 					<h1 class="promo__title">THE BRAND</h1>
 					<h2 class="promo__text">OF LUXERIOUS</h2>
 					<span class="span">FASHION</span>
+				</div>
+				<div class="mobile-menu__box">
+					<div class="mobile-menu__item">
+						<button class="mobile-menu__close"></button>
+						<h2 class="mobile-menu__heading">MENU</h2>
+						<h3 class="mobile-menu__title">MAN</h3>
+						<ul class="mobile-menu__list">
+							<li><a class="mobile-menu__link" href="#">Accessories</a></li>
+							<li><a class="mobile-menu__link" href="#">Bags</a></li>
+							<li><a class="mobile-menu__link" href="#">Denim</a></li>
+							<li><a class="mobile-menu__link" href="#">T-Shirts</a></li>
+						</ul>
+					</div>
+					<div class="mobile-menu__item">
+						<h3 class="mobile-menu__title">WOMAN</h3>
+						<ul class="mobile-menu__list">
+							<li><a class="mobile-menu__link" href="">Accessories</a></li>
+							<li><a class="mobile-menu__link" href="">Bags</a></li>
+							<li><a class="mobile-menu__link" href="">Denim</a></li>
+							<li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+						</ul>
+					</div>
+					<div class="mobile-menu__item">
+						<h3 class="mobile-menu__title">KIDS</h3>
+						<ul class="mobile-menu__list">
+							<li><a class="mobile-menu__link" href="">Accessories</a></li>
+							<li><a class="mobile-menu__link" href="">Bags</a></li>
+							<li><a class="mobile-menu__link" href="">Denim</a></li>
+							<li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -75,6 +106,12 @@
 			<div class="product-box__content">
 				<div class="product">
 					<img class="product__img" src="img/product_1.png" alt="" />
+					<div class="product__img_hover">
+						<button class="product__hover_btn">
+							Add to Cart
+							<img class="product__hover_basket" src="./img/backet_1.svg" alt="">
+						</button>
+					</div>
 					<div class="product__content">
 						<h2 class="product__heading">ELLERY X M'O CAPSULE</h2>
 						<p class="product__text">
@@ -86,6 +123,12 @@
 				</div>
 				<div class="product">
 					<img class="product__img" src="img/product_2.png" alt="" />
+					<div class="product__img_hover">
+						<button class="product__hover_btn">
+							Add to Cart
+							<img class="product__hover_basket" src="./img/backet_1.svg" alt="">
+						</button>
+					</div>
 					<div class="product__content">
 						<h2 class="product__heading">ELLERY X M'O CAPSULE</h2>
 						<p class="product__text">
@@ -97,6 +140,12 @@
 				</div>
 				<div class="product">
 					<img class="product__img" src="img/product_3.png" alt="" />
+					<div class="product__img_hover">
+						<button class="product__hover_btn">
+							Add to Cart
+							<img class="product__hover_basket" src="./img/backet_1.svg" alt="">
+						</button>
+					</div>
 					<div class="product__content">
 						<h2 class="product__heading">ELLERY X M'O CAPSULE</h2>
 						<p class="product__text">
@@ -108,6 +157,12 @@
 				</div>
 				<div class="product">
 					<img class="product__img" src="img/product_4.png" alt="" />
+					<div class="product__img_hover">
+						<button class="product__hover_btn">
+							Add to Cart
+							<img class="product__hover_basket" src="./img/backet_1.svg" alt="">
+						</button>
+					</div>
 					<div class="product__content">
 						<h2 class="product__heading">ELLERY X M'O CAPSULE</h2>
 						<p class="product__text">
@@ -119,6 +174,12 @@
 				</div>
 				<div class="product">
 					<img class="product__img" src="img/product_5.png" alt="" />
+					<div class="product__img_hover">
+						<button class="product__hover_btn">
+							Add to Cart
+							<img class="product__hover_basket" src="./img/backet_1.svg" alt="">
+						</button>
+					</div>
 					<div class="product__content">
 						<h2 class="product__heading">ELLERY X M'O CAPSULE</h2>
 						<p class="product__text">
@@ -130,6 +191,12 @@
 				</div>
 				<div class="product">
 					<img class="product__img" src="img/product_6.png" alt="" />
+					<div class="product__img_hover">
+						<button class="product__hover_btn">
+							Add to Cart
+							<img class="product__hover_basket" src="./img/backet_1.svg" alt="">
+						</button>
+					</div>
 					<div class="product__content">
 						<h2 class="product__heading">ELLERY X M'O CAPSULE</h2>
 						<p class="product__text">
@@ -176,10 +243,10 @@
 				</p>
 			</div>
 			<form class="form">
-				<label class="form__label" for="name">
+				<div class="form__label">
 					<h2>SUBSCRIBE</h2>
 					<p class="form__label_text">FOR OUR NEWLETTER AND PROMOTION</p>
-				</label>
+				</div>
 				<div class="form__box">
 					<input class="form__input" type="text" id="name" name="submitted-name" autocomplete="name" placeholder="Enter Your Email"/>
 					<button class="form__button">Subscribe</button>
@@ -220,5 +287,6 @@
 			</nav>
 		</footer>
 		</div>
+		<script src="./script.js"></script>
 	</body>
 </html>
